@@ -1,1 +1,10 @@
 GitHub Ex file
+
+-create new directory/folder
+-git init directory/folder
+-create file & commit
+-go to GitHub and login
+-create new repository
+-copy and paste the link into terminal
+-copy and paste the branch in terminal
+-
