@@ -7,4 +7,19 @@ GitHub Ex file
 -create new repository
 -copy and paste the link into terminal
 -copy and paste the branch in terminal
--
+-make changes, add and commit on local machine -> git add . -> git commit -m ""
+-push changes to GitHub -> git push -u origin master
+Origin is the name of the remote, master is name of branch, git push should also work
+You use a remote to interact with GitHub from local machine
+-to get changes from GitHub you pull -> git pull origin master
+Origin is the url master is the branch
+-to create new branch -> git checkout -b (insert new branch name)
+-to push to new branch -> git push -u origin (new branch name)
+-can clone repositories in GitHub by copying, making a new directory, changing into that directory and then cloning repository -> git clone (paste url)
+-can fork repositories which makes a private copy and pastes it into your GitHub account, can change it any way you want by pasting the new url into your terminal -> git clone (personal fork url)
+-can make changes and commit on local machine
+-check and make sure you have remote on local -> git remote -v
+-when pushing it will push to your fork on your account not the original -> git push -u origin master
+-GitHub will show I am one commit ahead of the original
+-if I want to propose my changes to original can make a pull request on GitHub -> pull request -> create pull request -> add comment to explain what commit is  and why I want to contribute it -> create pull request and wait for it to be accepted, or denied, we still have our own changes
+-others can create pull requests to your repositories, can view code changes by viewing commits and can make decision to accept or deny request by -> "review changes" then -> merge pull request -> merge, approved changes will appear on master branch, will have to pull on local machine to get new changes
