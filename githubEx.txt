@@ -6,7 +6,7 @@ GitHub Ex file
 -go to GitHub and login
 -create new repository
 -copy and paste the link into terminal
--copy and paste the branch in terminal
+-copy and paste the branch into terminal
 -make changes, add and commit on local machine -> git add . -> git commit -m ""
 -push changes to GitHub -> git push -u origin master
 Origin is the name of the remote, master is name of branch, git push should also work
